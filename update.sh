@@ -17,3 +17,8 @@ mv sites.google.com/view/cellostudiofremont docs
 
 # Remove the sites.google.com directory
 rm -rf sites.google.com
+
+# Copy the CNAME, sitemap.xml, and robots.txt files to the docs directory
+cp CNAME docs
+cp sitemap.xml docs
+cp robots.txt docs
