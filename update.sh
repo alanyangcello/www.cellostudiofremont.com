@@ -25,4 +25,4 @@ cp robots.txt docs
 cp index.html docs
 
 # Replace all occurrences of https://sites.google.com/view/cellostudiofremont with / in HTML files
-sed -i '' 's|https://sites.google.com/view/cellostudiofremont|/|g' docs/**/*.html
+find docs -type f -name '*.html' -exec sed -i '' 's|https://sites.google.com/view/cellostudiofremont|/|g' {} +
