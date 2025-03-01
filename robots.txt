@@ -1,11 +1,3 @@
 User-agent: *
-Disallow: /private/
-Disallow: /tmp/
-Disallow: /admin/
-
-# Allow all robots complete access
-User-agent: *
-Allow: /
-
-# Sitemap location
+Disallow:
 Sitemap: https://www.cellostudiofremont.com/sitemap.xml
