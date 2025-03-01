@@ -23,3 +23,6 @@ cp CNAME docs
 cp sitemap.xml docs
 cp robots.txt docs
 cp index.html docs
+
+# Replace all occurrences of https://sites.google.com/view/cellostudiofremont with / in HTML files
+sed -i '' 's|https://sites.google.com/view/cellostudiofremont|/|g' docs/**/*.html
