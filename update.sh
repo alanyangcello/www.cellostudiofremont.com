@@ -22,3 +22,4 @@ rm -rf sites.google.com
 cp CNAME docs
 cp sitemap.xml docs
 cp robots.txt docs
+cp index.html docs
