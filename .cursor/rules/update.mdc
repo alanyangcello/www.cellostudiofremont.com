@@ -1,0 +1,24 @@
+---
+description: Updating the content of the website
+globs: *
+alwaysApply: false
+---
+The `tree` command of the downloaded website looks like:
+```
+├── sites.google.com
+│   ├── robots.txt
+│   └── view
+│       └── cellostudiofremont
+│           ├── contact
+│           ├── home
+│           ├── student-gallery
+│           │   ├── student-gallery-page-2
+│           │   ├── student-gallery-page-3
+│           │   ├── student-gallery-page-4
+│           │   ├── student-gallery-page-5
+│           │   └── student-gallery-page-6
+│           └── voice-of-the-soul
+```
+
+- Every file within needs to be renamed to `.html`
+- All links need to be updated
