@@ -24,5 +24,8 @@ cp sitemap.xml docs
 cp robots.txt docs
 cp index.html docs
 
-# Replace all occurrences of https://sites.google.com/view/cellostudiofremont with / in HTML files
+# Replace all occurrences of https://sites.google.com/view/cellostudiofremont/ with / in HTML files
 find docs -type f -name '*.html' -exec sed -i '' 's|https://sites.google.com/view/cellostudiofremont/|/|g' {} +
+
+# Replace all occurrences of /view/cellostudiofremont/ with / in HTML files
+find docs -type f -name '*.html' -exec sed -i '' 's|/view/cellostudiofremont/|/|g' {} +
